@@ -1,0 +1,73 @@
+# ======================
+# Frontend (Next.js / Node)
+# ======================
+
+# Node modules
+/frontend/node_modules
+
+# Next.js build output
+/frontend/.next
+/frontend/out
+/frontend/build
+
+# Yarn / PnP
+/frontend/.pnp
+/frontend/.pnp.*
+/frontend/.yarn/*
+!/frontend/.yarn/patches
+!/frontend/.yarn/plugins
+!/frontend/.yarn/releases
+!/frontend/.yarn/versions
+
+# Env files
+/frontend/.env*
+/frontend/.env.local
+/frontend/.env.development
+/frontend/.env.production
+
+# TypeScript build info
+/frontend/*.tsbuildinfo
+/frontend/next-env.d.ts
+
+# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/.DS_Store
+
+# Vercel
+/frontend/.vercel
+
+# Coverage (frontend tests)
+/frontend/coverage
+
+# ======================
+# Backend (FastAPI / Python)
+# ======================
+
+# Python bytecode
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/*$py.class
+
+# Python virtual environments
+/backend/venv/
+/backend/.venv/
+
+# Env files
+/backend/.env
+/backend/.env.local
+/backend/.env.production
+
+# SQLite DB (if used)
+/backend/*.sqlite3
+
+# Logs
+/backend/logs/
+backend/*.log
+
+# Coverage (backend tests)
+/backend/coverage/
+
+# Misc
+.DS_Store
